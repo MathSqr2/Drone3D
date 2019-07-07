@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <include file="$(find px4)/launch/mavros_posix_sitl.launch"/>
+
+    <node name="waypointpush2" pkg="waypointpush2" type="waypointpush2_node" output="screen"/>
+</launch>
